@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Georgia;
+
+    margin: 0;
+    padding: 0;
+    background-image: url("https://wallpapercat.com/w/full/2/a/b/1198591-3840x2160-desktop-4k-studio-ghibli-background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px 40px;
+    background-color: #bd8787;
+	
+}
+
+.navbar .navlinks {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .navlinks li {
+    margin: 0 15px;
+
+}
+
+.navbar .navlinks a {
+    text-decoration: none;
+    color: #16278b;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar .navlinks a:hover {
+    color: #c4dc8a;
+}    
+
+h1 {
+	color: white;
+}
+
+.intro {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 100px;
+	border-style: ridge;
+	padding: 50px;
+	text-shadow: 2px 2px black;
+	background-color: rgb(0, 0, 0, 0.40);
+	font-size: 20px;
+}
+
+.movies {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.footer {
+    color: antiquewhite;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    margin-top: 200px;
+}
+
+// MOVIE LIST
+
+h1 {
+	text-align: center;
+}
+
+.movielist {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 100px;
+	border-style: ridge;
+	padding: 50px;
+	text-shadow: 2px 2px black;s
+	background-color: rgb(0, 0, 0, 0.40);
+	font-size: 20px;
+} 
+
+.otherlist {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 100px;
+	border-style: ridge;
+	padding: 50px;
+	text-shadow: 2px 2px black;s
+	background-color: rgb(0, 0, 0, 0.40);
+	font-size: 20px;
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: rgb(0, 0, 0, 0.40);
+    border-style: solid;
+    border-color: black;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+}
+
